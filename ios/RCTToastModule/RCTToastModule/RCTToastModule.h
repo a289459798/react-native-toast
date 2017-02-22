@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <React/RCTBridgeModule.h>
 
-@interface RCTToastModule : NSObject
+@interface RCTToastModule : NSObject <RCTBridgeModule>
 
 
 @end

@@ -1108,7 +1108,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
         if (kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_7_0) {
             _style = MBProgressHUDBackgroundStyleBlur;
             if (kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_8_0) {
-                _color = [UIColor colorWithWhite:0.8f alpha:0.6f];
+                _color = [UIColor colorWithWhite:0.1f alpha:0.9f];
             } else {
                 _color = [UIColor colorWithWhite:0.95f alpha:0.6f];
             }

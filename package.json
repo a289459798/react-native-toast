@@ -1,6 +1,6 @@
 {
   "name": "react-native-zzy-toast",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "toast提示",
   "main": "index.js",
   "scripts": {
