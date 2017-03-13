@@ -14,6 +14,10 @@ const ToastModule = NativeModules.ToastModule;
 
 export default class Toast {
 
+    /**
+     * 显示文字提示
+     * @param message
+     */
     static show(message) {
 
         if(Platform.OS == 'ios') {
@@ -26,4 +30,33 @@ export default class Toast {
             ToastAndroid.show(message, ToastAndroid.SHORT);
         }
     }
+
+    /**
+     * 显示loading
+     * @param message
+     */
+    static showLoading(message) {
+
+        if(Platform.OS == 'ios') {
+
+            ToastModule.showLoading(message);
+        } else {
+
+        }
+    }
+
+    /**
+     * 隐藏提示信息
+     */
+    static hide() {
+
+        if(Platform.OS == 'ios') {
+
+            ToastModule.hide();
+        } else {
+
+
+        }
+    }
+
 }
