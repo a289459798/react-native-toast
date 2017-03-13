@@ -37,12 +37,7 @@ export default class Toast {
      */
     static showLoading(message) {
 
-        if(Platform.OS == 'ios') {
-
-            ToastModule.showLoading(message);
-        } else {
-
-        }
+        ToastModule.showLoading(message);
     }
 
     /**
@@ -50,13 +45,7 @@ export default class Toast {
      */
     static hide() {
 
-        if(Platform.OS == 'ios') {
-
-            ToastModule.hide();
-        } else {
-
-
-        }
+        ToastModule.hide();
     }
 
 }

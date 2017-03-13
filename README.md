@@ -2,8 +2,14 @@
 
 react-native version > 0.4
 
-IOS: 基于MBProgressHUD
-Android: 基于原生Toast
+IOS: 基于 [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
+Android: 基于原生Toast 和 [KProgressHUD](https://github.com/Kaopiz/KProgressHUD)
+
+### 作者
+
+QQ: 289459798
+QQ群: 161263093
+欢迎更多的喜欢开源的小伙伴加入
 
 ### 安装
 
