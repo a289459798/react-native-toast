@@ -11,6 +11,18 @@ QQ: 289459798
 QQ群: 161263093
 欢迎更多的喜欢开源的小伙伴加入
 
+### IOS效果
+
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/v1/7-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/v1/7.png)
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/v1/1-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/v1/1.png)
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/v1/2-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/v1/2.png)
+
+### Android效果
+
+![](https://raw.githubusercontent.com/Kaopiz/KProgressHUD/master/demo/screenshots/screencast.gif)
+
+目前之后上图菜单1和菜单2的效果
+
 ### 安装
 
 npm intsall react-native-zzy-toast --save
