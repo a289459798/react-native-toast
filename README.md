@@ -25,13 +25,15 @@ QQ群: 161263093
 
 ### 安装
 
+```sh
 npm intsall react-native-zzy-toast --save
 
 react-native link
+```
 
 ### 使用
 
-```
+```js
 import Toast from 'react-native-toast';
 ...
 Toast.show('提示信息');
@@ -43,7 +45,7 @@ Toast.hide();
 
 ### API
 
-```
+```js
 /**
  * 显示文字提示
  * @param message
