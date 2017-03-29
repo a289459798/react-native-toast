@@ -25,8 +25,6 @@ export default class Toast {
             ToastModule.show(message);
         } else {
 
-            var {ToastAndroid} = ReactNative;
-
             ToastAndroid.show(message, ToastAndroid.SHORT);
         }
     }

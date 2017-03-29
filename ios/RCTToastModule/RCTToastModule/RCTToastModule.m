@@ -26,7 +26,7 @@ RCT_EXPORT_METHOD(show:(NSString *)message)
     
     dispatch_async(dispatch_get_main_queue(), ^{
         
-        [self getHUD];
+        MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
         HUD.mode = MBProgressHUDModeText;
         HUD.label.textColor = [UIColor whiteColor];
         HUD.label.text = message;
