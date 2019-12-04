@@ -25,7 +25,7 @@ export default class Toast {
             ToastModule.show(message);
         } else {
 
-            ToastAndroid.show(message, ToastAndroid.SHORT);
+            ToastAndroid.showWithGravity(message, ToastAndroid.SHORT, ToastAndroid.CENTER);
         }
     }
 
