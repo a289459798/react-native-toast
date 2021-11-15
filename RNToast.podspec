@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source          = { :git => "https://github.com/a289459798/react-native-toast", :tag => "v#{s.version}" }
   s.source_files    = 'ios/**/*.{h,m}'
   s.preserve_paths  = "**/*.js"
+  s.resources       = ['ios/resource/*']
 
   s.dependency 'React'
 end

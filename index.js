@@ -20,13 +20,21 @@ export default class Toast {
      */
     static show(message) {
 
-        if(Platform.OS == 'ios') {
+        if (Platform.OS == 'ios') {
 
             ToastModule.show(message);
         } else {
 
             ToastAndroid.showWithGravity(message, ToastAndroid.SHORT, ToastAndroid.CENTER);
         }
+    }
+
+    /**
+     * @param message
+     */
+    static success(message) {
+
+        ToastModule.showSuccess(message);
     }
 
     /**
