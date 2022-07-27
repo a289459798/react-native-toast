@@ -1,5 +1,5 @@
 {
-  "name": "@ichong/react-native-toast",
+  "name": "@attacks/react-native-toast",
   "version": "2.0.2",
   "description": "toast提示",
   "main": "index.js",
