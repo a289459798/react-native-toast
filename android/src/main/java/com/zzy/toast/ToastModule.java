@@ -57,7 +57,7 @@ public class ToastModule extends ReactContextBaseJavaModule {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if (kProgressHUD != null && kProgressHUD.isShowing()) {
+                if (kProgressHUD != null) {
                     kProgressHUD.dismiss();
                 }
             }
@@ -67,7 +67,7 @@ public class ToastModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void hide() {
-        if (kProgressHUD != null && kProgressHUD.isShowing()) {
+        if (kProgressHUD != null) {
             kProgressHUD.dismiss();
         }
 

@@ -18,7 +18,7 @@ export default class Toast {
      * 显示文字提示
      * @param message
      */
-    static show(message) {
+    static show(message: string) {
 
         if (Platform.OS == 'ios') {
 
@@ -32,7 +32,7 @@ export default class Toast {
     /**
      * @param message
      */
-    static success(message) {
+    static success(message: string) {
 
         ToastModule.showSuccess(message);
     }
@@ -41,7 +41,7 @@ export default class Toast {
      * 显示loading
      * @param message
      */
-    static showLoading(message) {
+    static showLoading(message: string) {
 
         ToastModule.showLoading(message);
     }
