@@ -1,7 +1,10 @@
 package com.zzy.toast;
 
 import android.os.Handler;
+import android.view.Gravity;
 import android.widget.ImageView;
+import android.widget.Toast;
+
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.DraweeView;
 import com.facebook.imagepipeline.request.ImageRequest;
@@ -29,6 +32,13 @@ public class ToastModule extends ReactContextBaseJavaModule {
     @Override
     public String getName() {
         return "ToastModule";
+    }
+
+    @ReactMethod
+    public void show(String message) {
+        Toast toast = Toast.makeText(getCurrentActivity(), message, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
     }
 
     @ReactMethod

@@ -6,8 +6,6 @@
 
 import {
     NativeModules,
-    Platform,
-    ToastAndroid,
 } from 'react-native';
 
 const ToastModule = NativeModules.ToastModule;
@@ -20,13 +18,7 @@ export default class Toast {
      */
     static show(message: string) {
 
-        if (Platform.OS == 'ios') {
-
-            ToastModule.show(message);
-        } else {
-
-            ToastAndroid.showWithGravity(message, ToastAndroid.SHORT, ToastAndroid.CENTER);
-        }
+        ToastModule.show(message);
     }
 
     /**
